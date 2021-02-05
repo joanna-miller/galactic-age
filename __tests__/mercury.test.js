@@ -2,7 +2,7 @@ import Mercury from "../src/js/mercury.js"
 
 describe("Mercury", () => {
 
-  test("should corrently create an Age object with two keys", () => {
+  test("should corrently create a Mercury object with two keys", () => {
     const userAge = new Mercury(0,0);
     expect(userAge.age).toEqual(0);
     expect(userAge.expectancy).toEqual(0);
