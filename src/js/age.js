@@ -1,3 +1,6 @@
-export default function Age(age, expectancy) {
-  
+export default class Age {
+  constructor(age, expectancy) {
+    this.age = age;
+    this.expectancy = expectancy;
+  }
 }
