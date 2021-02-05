@@ -1,5 +1,4 @@
 import Mars from "../src/js/mars.js"
-import Venus from "../src/js/venus.js";
 
 describe("Mars", () => {
 
@@ -22,6 +21,11 @@ describe("Mars", () => {
   test("should determine how many solar years on Mars someone has left to live", () => { 
     const userAge = new Mars(33,80);
       expect(userAge.marsExpect()).toEqual(25);
+  })
+
+  test("should determine how many solar years on Mars someone has left to live up to one decimal point", () => { 
+    const userAge = new Mars(56,80);
+      expect(userAge.marsExpect()).toEqual(12.8);
   })
 
 });
