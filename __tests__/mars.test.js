@@ -36,4 +36,9 @@ describe("Mars", () => {
     const userAge = new Mars(86,80);
     expect(userAge.marsExpect()).toEqual(3.2);
   })
+  test("should return a string if the users life expenctancy and age are equal", () => { 
+    const userAge = new Mars(86,86);
+    expect(userAge.marsExpect()).toEqual("You've reached your earthly life expectancy! Consider traveling to Mars to escape the rules of Earth.");
+  })
+
 });
