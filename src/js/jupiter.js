@@ -10,6 +10,10 @@ export default class Jupiter {
   }
 
   jupiterExpect() {
+    if (this.age > this.expectancy) {
+      return parseFloat(((this.age - this.expectancy) / 11.86).toFixed(1)); 
+    } else {
     return parseFloat(((this.expectancy - this.age) / 11.86).toFixed(1));
+    }
   }
 }
