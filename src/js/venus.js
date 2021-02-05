@@ -5,7 +5,7 @@ export default class Venus {
   }
 
   venusAge() {
-    
+    return this.age / .62;
   }
 
 }
