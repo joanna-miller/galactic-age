@@ -13,4 +13,9 @@ describe("Age", () => {
     const userAge = new Age(30,86);
     expect(userAge.mercAge()).toEqual(125);
   })
+
+  test("should correctly return users age of solar years on Mercury with up to one decimal point", () => {
+    const userAge = new Age (32,86);
+    expect(userAge.mercAge()).toEqual(133.3);
+  })
 })
