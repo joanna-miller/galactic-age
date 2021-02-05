@@ -5,7 +5,8 @@ export default class Mercury {
   }
 
   mercAge() {
-    return parseFloat((this.age / .24).toFixed(1));
+    let mercuryAge = parseFloat((this.age / .24).toFixed(1));
+    return `Wow! You are ${mercuryAge} Mercurian years old!`
   }
 
   mercExpect() {

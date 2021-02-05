@@ -8,14 +8,14 @@ describe("Venus", () => {
     expect(userAge.expectancy).toEqual(0);
   })
 
-  test("should correctly return users age in solar years on Venus", () => {
+  test("should correctly return a string that includes users age in solar years on Venus", () => {
     const userAge = new Venus(62,90);
-    expect(userAge.venusAge()).toEqual(100);
+    expect(userAge.venusAge()).toEqual("You look great for being 100 Venusian years old!");
   })
 
-  test("should correctly return users age of solar years on Venus with up to one decimal point", () => {
+  test("should correctly return a string that includes users age in solar years on Venus with up to one decimal point", () => {
     const userAge = new Venus (30,86);
-    expect(userAge.venusAge()).toEqual(48.4);
+    expect(userAge.venusAge()).toEqual("You look great for being 48.4 Venusian years old!");
   })
 
   test("should determine how many solar years on Venus someone has left to live", () => {

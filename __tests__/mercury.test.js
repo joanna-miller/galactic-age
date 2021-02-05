@@ -13,11 +13,11 @@ describe("Mercury", () => {
     expect(userAge.mercAge()).toEqual("Wow! You are 125 Mercurian years old!");
   })
 
-  test("should correctly return users age of solar years on Mercury with up to one decimal point", () => {
+  test("should correctly return a string with users age in solar years on Mercury with up to one decimal point", () => {
     const userAge = new Mercury (32,90);
-    expect(userAge.mercAge()).toEqual(133.3);
+    expect(userAge.mercAge()).toEqual("Wow! You are 133.3 Mercurian years old!");
   })
-  
+
   test("should determine how many solar years on Mercury someone has left to live", () => {
     const userAge = new Mercury(30,90);
     expect(userAge.mercExpect()).toEqual(250);
