@@ -10,7 +10,12 @@ describe("Jupiter", () => {
 
   test("should correctly return a string that includes users age in solar years on Jupiter to the first decimal point", () => {
     const userAge = new Jupiter (50,86);
-    expect(userAge.jupiterAge()).toEqual("WOW! You are a mere 4.2 years old in Jupiter!")
+    expect(userAge.jupiterAge()).toEqual("WOW! You are a mere 4.2 years old on Jupiter!")
+  })
+
+  test("should determine how many solar years on Jupiter someone has left to live to the first decimal point", () => {
+    const userAge = new Jupiter(30,86);
+    expect(userAge.jupiterExpect()).toEqual(4.7);
   })
 
 })
