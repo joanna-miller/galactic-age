@@ -5,7 +5,8 @@ export default class Venus {
   }
 
   venusAge() {
-    return parseFloat((this.age / .62).toFixed(1));
+    let venusAge = parseFloat((this.age / .62).toFixed(1));
+    return `You look great for being ${venusAge} Venusian years old!`
   }
 
   venusExpect() {
