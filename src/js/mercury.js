@@ -5,7 +5,7 @@ export default class Mercury {
   }
 
   mercAge() {
-    return parseFloat((this.age / .24).toFixed(1))
+    return parseFloat((this.age / .24).toFixed(1));
   }
 
   mercExpect() {
