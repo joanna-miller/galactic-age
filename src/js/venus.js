@@ -9,6 +9,6 @@ export default class Venus {
   }
 
  venusExpect() {
-   
+  return (this.expectancy - this.age) / .62;
  }
 }
