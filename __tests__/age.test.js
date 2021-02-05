@@ -28,4 +28,9 @@ describe("Age", () => {
     const userAge = new Age(30,86);
     expect(userAge.mercExpect()).toEqual(233.3);
   })
+
+  test("should determine how many solar years on Mercury someone has outlived their life expentancy", () => {
+    const userAge = new Age(86,80);
+    expect(userAge.mercExpect()).toEqual(66);
+  })
 })
