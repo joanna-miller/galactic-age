@@ -9,6 +9,6 @@ export default class Age {
   }
 
   mercExpect() {
-    return (this.expectancy - this.age) / .24;
+    return parseFloat(((this.expectancy - this.age) / .24).toFixed(1));
   }
 }
