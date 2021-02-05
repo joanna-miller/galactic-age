@@ -17,4 +17,9 @@ describe("Venus", () => {
     const userAge = new Venus (30,86);
     expect(userAge.venusAge()).toEqual(48.4);
   })
+
+  test("should determine how many solar years on Venus someone has left to live", () => {
+    const userAge = new Venus(28,90);
+    expect(userAge.venusExpect()).toEqual(100);
+  })
 })

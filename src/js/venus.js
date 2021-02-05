@@ -8,4 +8,7 @@ export default class Venus {
     return parseFloat((this.age / .62).toFixed(1));
   }
 
+ venusExpect() {
+   
+ }
 }
