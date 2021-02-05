@@ -12,4 +12,9 @@ describe("Saturn", () => {
     const userAge = new Saturn (30,86);
     expect(userAge.saturnAge()).toEqual(1.02);
   })
+
+  test("should determine how many solar years on Saturn someone has left to live up to the 2nd decimal point", () => {
+    const userAge = new Saturn(30,86);
+    expect(userAge.saturnExpect()).toEqual(1.90);
+  })
 })
