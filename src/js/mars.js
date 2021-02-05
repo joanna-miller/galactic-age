@@ -8,4 +8,8 @@ export default class Mars {
     let marsAge = parseFloat((this.age / 1.88).toFixed(1));
     return `Mars time looks good on you! You are ${marsAge} Martian years old!`
   }
+
+  marsExpect() {
+    
+  }
 }
