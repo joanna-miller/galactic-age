@@ -1,3 +1,6 @@
-export default class Mercury {
-  
+export default class Venus {
+  constructor(age, expectancy) {
+    this.age = age;
+    this.expectancy = expectancy;
   }
+}
