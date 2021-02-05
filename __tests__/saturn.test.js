@@ -7,3 +7,4 @@ describe("Saturn", () => {
     expect(userAge.age).toEqual(0);
     expect(userAge.expectancy).toEqual(0);
   })
+})
