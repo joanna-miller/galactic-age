@@ -3,4 +3,8 @@ export default class Age {
     this.age = age;
     this.expectancy = expectancy;
   }
+
+  mercAge() {
+    
+  }
 }
