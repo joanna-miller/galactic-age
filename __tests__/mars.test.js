@@ -7,4 +7,9 @@ describe("Mars", () => {
     expect(userAge.age).toEqual(0);
     expect(userAge.expectancy).toEqual(0);
   })
+
+  test("should correctly return a string that includes users age in solar years on Mars", () => {
+    const userAge = new Mars(47,86);
+    expect(userAge.marsAge()).toEqual("Mars time looks good on you! You are 25 Martian years old!"); 
+  })
 });

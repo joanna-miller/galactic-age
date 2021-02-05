@@ -3,4 +3,8 @@ export default class Mars {
     this.age = age;
     this.expectancy = expectancy;
   }
+
+  marsAge() {
+    
+  }
 }
