@@ -3,4 +3,9 @@ export default class Venus {
     this.age = age;
     this.expectancy = expectancy;
   }
+
+  venusAge() {
+    
+  }
+
 }

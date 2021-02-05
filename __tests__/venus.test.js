@@ -8,4 +8,8 @@ describe("Venus", () => {
     expect(userAge.expectancy).toEqual(0);
   })
 
+  test("should correctly return users age in solar years on Venus", () => {
+    const userAge = new Venus(62,90);
+    expect(userAge.venusAge()).toEqual(100);
+  })
 })
