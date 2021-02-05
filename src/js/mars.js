@@ -10,6 +10,6 @@ export default class Mars {
   }
 
   marsExpect() {
-    return (this.age - this.expectancy) / 1.88;
+    
   }
 }

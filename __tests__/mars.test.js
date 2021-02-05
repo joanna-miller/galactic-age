@@ -20,7 +20,8 @@ describe("Mars", () => {
   })
 
   test("should determine how many solar years on Mars someone has left to live", () => { 
-    const userAge = new Mars(127,80);
+    const userAge = new Mars(33,80);
       expect(userAge.marsExpect()).toEqual(25);
   })
+
 });
