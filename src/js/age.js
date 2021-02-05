@@ -11,8 +11,12 @@ export default class Age {
   mercExpect() {
     if (this.age > this.expectancy) {
       return parseFloat(((this.age - this.expectancy) / .24).toFixed(1))
+    } else if (this.age === this.expectancy) {
+      return "You're on your way to outliving your life expectancy! Good job and be careful!";
     } else {
       return parseFloat(((this.expectancy - this.age) / .24).toFixed(1));
     }
   }
+
+  
 }
