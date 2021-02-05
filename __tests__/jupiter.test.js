@@ -23,4 +23,8 @@ describe("Jupiter", () => {
     expect(userAge.jupiterExpect()).toEqual(.8);
   })
 
+  test("should return a string if the users life expenctancy and age are equal", () => { 
+    const userAge = new Jupiter(86,86);
+    expect(userAge.jupiterExpect()).toEqual("Wow buddy are you feeling okay?");
+  })
 })
