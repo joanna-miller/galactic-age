@@ -38,4 +38,9 @@ describe("Age", () => {
     const userAge = new Age(82,80);
     expect(userAge.mercExpect()).toEqual(8.3);
   })
+
+  test("should return a string if users life expentancy and age are equal", () => {
+    const userAge = new Age(80,80);
+    expect(userAge.mercExpect()).toEqual("You're on your way to outliving your life expectancy! Good job and be careful!");
+  })
 })
