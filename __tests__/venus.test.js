@@ -15,6 +15,6 @@ describe("Venus", () => {
 
   test("should correctly return users age of solar years on Venus with up to one decimal point", () => {
     const userAge = new Venus (30,86);
-    expect(userAge.venusAge()).toEqual(43.4);
+    expect(userAge.venusAge()).toEqual(48.4);
   })
 })
