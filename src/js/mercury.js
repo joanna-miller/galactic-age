@@ -1,4 +1,4 @@
-export default class Age {
+export default class Mercury {
   constructor(age, expectancy) {
     this.age = age;
     this.expectancy = expectancy;
@@ -17,6 +17,4 @@ export default class Age {
       return parseFloat(((this.expectancy - this.age) / .24).toFixed(1));
     }
   }
-
-  
 }
