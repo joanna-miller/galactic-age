@@ -22,4 +22,10 @@ describe("Venus", () => {
     const userAge = new Venus(28,90);
     expect(userAge.venusExpect()).toEqual(100);
   })
+
+  test("should determine how many solar years on Venus someone has left to live up to one decimal point", () => {
+    const userAge = new Venus(30,86);
+    expect(userAge.venusExpect()).toEqual(90.3);
+  })
+
 })
