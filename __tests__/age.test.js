@@ -33,4 +33,9 @@ describe("Age", () => {
     const userAge = new Age(86,80);
     expect(userAge.mercExpect()).toEqual(25);
   })
+
+  test("should determine how many solar years on Mercury someone has outlived their life expentancy up to one decimal point", () => {
+    const userAge = new Age(82,80);
+    expect(userAge.mercExpect()).toEqual(8.3);
+  })
 })
