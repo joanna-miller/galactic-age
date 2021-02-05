@@ -12,4 +12,9 @@ describe("Mars", () => {
     const userAge = new Mars(47,86);
     expect(userAge.marsAge()).toEqual("Mars time looks good on you! You are 25 Martian years old!"); 
   })
+
+  test("should correctly return a string that includes users age in solar years on Mars with up to one decimal point", () => {
+    const userAge = new Mars(31,86);
+    expect(userAge.marsAge()).toEqual("Mars time looks good on you! You are 16.5 Martian years old!"); 
+  })
 });
