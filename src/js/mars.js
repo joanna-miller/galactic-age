@@ -5,7 +5,7 @@ export default class Mars {
   }
 
   marsAge() {
-    let marsAge = (this.age / 1.88);
+    let marsAge = parseFloat((this.age / 1.88).toFixed(1));
     return `Mars time looks good on you! You are ${marsAge} Martian years old!`
   }
 }
