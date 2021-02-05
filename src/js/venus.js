@@ -10,7 +10,7 @@ export default class Venus {
 
   venusExpect() {
     if (this.age > this.expectancy) {
-      return ((this.age - this.expectancy) / .62);
+      return parseFloat(((this.age - this.expectancy) / .62).toFixed(1));
     } else {
       return parseFloat(((this.expectancy - this.age) / .62).toFixed(1));
     }
