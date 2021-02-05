@@ -28,4 +28,9 @@ describe("Mars", () => {
       expect(userAge.marsExpect()).toEqual(12.8);
   })
 
+  test("should determine how many solar years on Mars someone has outlived their life expectancy", () => { 
+    const userAge = new Mars(127,80);
+      expect(userAge.marsExpect()).toEqual(25);
+  })
+
 });
