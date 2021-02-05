@@ -5,6 +5,7 @@ export default class Jupiter {
   }
 
   jupiterAge() {
-    
+    let jupiterAge = parseFloat((this.age / 11.86).toFixed());
+    return `WOW! You are a mere ${jupiterAge} years old in Jupiter!`
   }
 }
