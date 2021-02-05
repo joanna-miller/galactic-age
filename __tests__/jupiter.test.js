@@ -8,4 +8,9 @@ describe("Jupiter", () => {
     expect(userAge.expectancy).toEqual(0);
   })
 
+  test("should correctly return a string that includes users age in solar years on Jupiter", () => {
+    const userAge = new Jupiter (50,86);
+    expect(userAge.jupiterAge()).toEqual(4)
+  })
+
 })

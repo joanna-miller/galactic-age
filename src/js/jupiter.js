@@ -3,5 +3,8 @@ export default class Jupiter {
     this.age = age;
     this.expectancy = expectancy;
   }
-  
+
+  jupiterAge() {
+    
+  }
 }
