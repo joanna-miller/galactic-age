@@ -1,6 +1,6 @@
-# _{Template}_
+# _Super Galactic Age Calculator_
 
-#### _{Environment Template}_
+#### _Calculate your age based on other planets solar years_
 
 #### By _**Jo Miller**_
 
@@ -14,7 +14,7 @@
 
 ## Description
 
-_{This is a template for setting up a development environment.  This is also a template README.}_
+_Input your age and the average life expectancy for your demographic, and you will receive your age on Mercury, Venus, Mars, and Jupiter along with how many more years you can expect to enjoy the beauty of each planet!_
 
 ## Setup/Installation Requirements
 
