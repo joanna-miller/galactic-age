@@ -37,4 +37,9 @@ describe("Venus", () => {
     const userAge = new Venus(90,86);
     expect(userAge.venusExpect()).toEqual(6.5);
   })
+
+  test("should return a string if the users life expectancy and age are euqal", () => {
+    const userAge = new Venus(86,86)
+    expect(userAge.venusExpect()).toEqual("Wow! You are right at your earthly life expectation threshold! Watch out for falling anvils!");
+  })
 })
