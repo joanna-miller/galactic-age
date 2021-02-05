@@ -7,4 +7,8 @@ export default class Age {
   mercAge() {
     return parseFloat((this.age / .24).toFixed(1))
   }
+
+  mercExpect() {
+    
+  }
 }
