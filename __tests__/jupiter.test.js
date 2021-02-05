@@ -18,4 +18,9 @@ describe("Jupiter", () => {
     expect(userAge.jupiterExpect()).toEqual(4.7);
   })
 
+  test("should determine how many solar years on Jupiter someone has outlived their life expectancy to one decimal point", () => { 
+    const userAge = new Jupiter(95,86);
+    expect(userAge.jupiterExpect()).toEqual(.8);
+  })
+
 })
