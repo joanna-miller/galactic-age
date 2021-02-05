@@ -7,4 +7,8 @@ export default class Saturn {
   saturnAge() {
     return parseFloat((this.age / 29.46).toFixed(2));
   }
+
+  saturnExpect() {
+    return parseFloat(((this.expectancy - this.age) / 29.46).toFixed(1));
+  }
 }
