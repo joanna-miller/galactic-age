@@ -7,4 +7,9 @@ describe("Saturn", () => {
     expect(userAge.age).toEqual(0);
     expect(userAge.expectancy).toEqual(0);
   })
+
+  test("should correctly show users age in solar years on Saturn to the 2nd decimal point", () => {
+    const userAge = new Saturn (30,86);
+    expect(userAge.saturnAge()).toEqual(1.01);
+  })
 })
