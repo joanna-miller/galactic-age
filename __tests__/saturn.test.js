@@ -22,4 +22,10 @@ describe("Saturn", () => {
     const userAge = new Saturn(105,86);
     expect(userAge.saturnExpect()).toEqual(.64);
   })
+
+  test("should return a string if the users life expenctancy and age are equal", () => { 
+    const userAge = new Saturn(86,86);
+    expect(userAge.saturnExpect()).toEqual("You're cutting it close on your life expenctancy - you might want to invest in a bubble suit.");
+  })
+
 })
