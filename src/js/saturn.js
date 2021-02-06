@@ -11,8 +11,11 @@ export default class Saturn {
   saturnExpect() {
     if (this.age > this.expectancy) {
       return parseFloat(((this.age - this.expectancy) / 29.46).toFixed(2));
+    } else if (this.age === this.expectancy) {
+      return "You're cutting it close on your life expenctancy - you might want to invest in a bubble suit."
     } else {
-    return parseFloat(((this.expectancy - this.age) / 29.46).toFixed(2));
-   }
+      return parseFloat(((this.expectancy - this.age) / 29.46).toFixed(2)); 
+    }
   }
+
 }

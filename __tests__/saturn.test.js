@@ -27,5 +27,4 @@ describe("Saturn", () => {
     const userAge = new Saturn(86,86);
     expect(userAge.saturnExpect()).toEqual("You're cutting it close on your life expenctancy - you might want to invest in a bubble suit.");
   })
-
 })
