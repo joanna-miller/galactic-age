@@ -26,8 +26,9 @@ _Takes user input of age and life expectancy and calculates the user's age on Me
 
 * _Clone this repository to your desktop_
 * _Navigate to top level of the directory_
-* _$ npm install_
-* _$ npm run build_
+* _In terminal run command $ npm install_
+* _In terminal run command $ npm test_
+* _In terminal run command $ npm run build_
 
 ---
 
